@@ -1,0 +1,154 @@
+{
+  "Cosmetics": [
+    {
+      "ProductName": "Son dưỡng môi hoa hồng",
+      "Image": "images/vaselineLip1.jpg",
+      "Price": "180.000",
+      "Quantity": "20",
+      "ProductCode": "US-001",
+      "Brand": "Vaseline",
+      "Origin": "USA",
+      "id": 1,
+      "TypeProduct": {
+        "id": "1",
+        "Type": "Skincare"
+      }
+    },
+    {
+      "ProductName": "Kem dưỡng ẩm cho da khô",
+      "Image": "images/creamPond.jpg",
+      "Price": "250.000",
+      "Quantity": "35",
+      "ProductCode": "US-002",
+      "Brand": "POND",
+      "Origin": "USA",
+      "id": 4,
+      "TypeProduct": {
+        "id": "1",
+        "Type": "Skincare"
+      }
+    },
+    {
+      "ProductName": "Kem nền",
+      "Image": "images/fitmeMaybeline.jpg",
+      "Price": "270.000",
+      "Quantity": "10",
+      "ProductCode": "US-005",
+      "Brand": "Maybeline",
+      "Origin": "USA",
+      "id": 5,
+      "TypeProduct": {
+        "id": "2",
+        "Type": "Make-up"
+      }
+    },
+    {
+      "ProductName": "Nước hoa hồng làm dịu da",
+      "Image": "images/tonneMelvita.jpg",
+      "Price": "350.000",
+      "Quantity": "25",
+      "ProductCode": "FR-004",
+      "Brand": "Melvita",
+      "Origin": "French",
+      "id": 6,
+      "TypeProduct": {
+        "id": "1",
+        "Type": "Skincare"
+      }
+    },
+    {
+      "ProductName": "Bảng phấn mắt",
+      "Image": "images/misshashadow.jpg",
+      "Price": "120.000",
+      "Quantity": "30",
+      "ProductCode": "KR-001",
+      "Brand": "Missha",
+      "Origin": "Korean",
+      "id": 7,
+      "TypeProduct": {
+        "id": "2",
+        "Type": "Make-up"
+      }
+    },
+    {
+      "ProductName": "Son Môi Hồng Cánh Sen",
+      "Image": "images/lancome.jpg",
+      "Price": "190.000",
+      "Quantity": "10",
+      "ProductCode": "FR-001",
+      "Brand": "Lancome",
+      "Origin": "French",
+      "TypeProduct": {
+        "id": "2",
+        "Type": "Make-up"
+      },
+      "id": 8
+    },
+    {
+      "ProductName": "Phấn phủ mịn da",
+      "Image": "images/karadium.jpg",
+      "Price": "200.000",
+      "Quantity": "10",
+      "ProductCode": "KR-004",
+      "Brand": "Karadium",
+      "Origin": "Korean",
+      "TypeProduct": {
+        "id": "2",
+        "Type": "Make-up"
+      },
+      "id": 9
+    },
+    {
+      "ProductName": "Kem dưỡng trắng da",
+      "Image": "images/lorealcream.jpg",
+      "Price": "290.000",
+      "Quantity": "15",
+      "ProductCode": "FR-009",
+      "Brand": "Loreal",
+      "Origin": "French",
+      "TypeProduct": {
+        "id": "1",
+        "Type": "Skincare"
+      },
+      "id": 10
+    },
+    {
+      "ProductName": "Kem chống nắng ",
+      "Image": "images/suncream.jpg",
+      "Price": "180.000",
+      "Quantity": "10",
+      "ProductCode": "KR-005",
+      "Brand": "Nature Public",
+      "Origin": "Korean",
+      "TypeProduct": {
+        "id": "1",
+        "Type": "Skincare"
+      },
+      "id": 11
+    },
+    {
+      "ProductName": "Bút chì kẻ mày siêu mảnh",
+      "Image": "images/chikemay.jpg",
+      "Price": "90.000",
+      "Quantity": "40",
+      "ProductCode": "KR-006",
+      "Brand": "Innisfree",
+      "Origin": "Korean",
+      "id": 12,
+      "TypeProduct": {
+        "id": "1",
+        "Type": "Skincare"
+      }
+    }
+  ],
+  "TypeProducts": [
+    {
+      "id": 1,
+      "Type": "Skincare"
+    },
+    {
+      "id": 2,
+      "Type": "Make-up"
+    }
+  ]
+}

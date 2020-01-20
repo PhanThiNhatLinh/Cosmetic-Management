@@ -1,0 +1,136 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="script/libs/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="cos.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <marquee>Cosmetic Management</marquee>
+        <a href="javascript:void(0);" class="btn btn-success" onclick="cosmetic.openModal()">Create New Product</a>
+        <div class="row mt-3 table-responsive">
+            <table class="table table-bordered table-hover table-dark table-striped" id="myTable">
+                <thead>
+                    <tr>
+                        <th style="color:pink;width: 10px">Order Number</th>
+                        <th style="color:pink">Product Name</th>
+                        <th style="color:pink">Image</th>
+                        <th style="color:pink;width: 10px">Price</th style="color:yellow;width: 10px">
+                        <th style="color:pink;width: 10px">Quantity</th>
+                        <th style="color:pink;width: 10px">Product Code</th>
+                        <th style="color:pink">Brand</th>
+                        <th style="color:pink;width: 10px">Origin</th>
+                        <th style="color:pink;width: 10px">Product Type</th>
+                        <th style="color:pink;width: 10px">Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tbCosmetic">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- The Modal -->
+    <div class="modal" id="addEditCosmetics">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Create Product</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form id="formAddEditCosmetic">
+                        <input hidden name='id' id='id' value="0">
+                        <div class="row form-group">
+                            <div class="col-4">
+                                <label> Product Name</label>
+                            </div>
+                            <div class="col-8">
+                                <input class="form-control" type="text" name="ProductName" id="ProductName" required>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-4">
+                                <label> Image</label>
+                            </div>
+                            <div class="col-8">
+                                <input class="form-control" type="text" name="Image" id="Image" required>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-4">
+                                <label> Price</label>
+                            </div>
+                            <div class="col-8">
+                                <input class="form-control" type="text" name="Price" id="Price" required>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-4">
+                                <label> Quantity</label>
+                            </div>
+                            <div class="col-8">
+                                <input class="form-control" type="text" name="Quantity" id="Quantity" required>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-4">
+                                <label> Product Code</label>
+                            </div>
+                            <div class="col-8">
+                                <input class="form-control" type="text" name="ProductCode" id="ProductCode" required>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-4">
+                                <label> Brand</label>
+                            </div>
+                            <div class="col-8">
+                                <input class="form-control" type="text" name="Brand" id="Brand" required>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-4">
+                                <label> Origin</label>
+                            </div>
+                            <div class="col-8">
+                                <input class="form-control" type="text" name="Origin" id="Origin" required>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-4">
+                                <label> Product Type</label>
+                            </div>
+                            <div class="col-8">
+                                <select class="form-control" name="TypeId" id="TypeId"></select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <a href="javascript:;" class="btn btn-primary" onclick="cosmetic.save()">Save</a>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script/libs/node_modules/jquery/dist/jquery.min.js"></script>
+<script src="script/libs/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="script/libs/node_modules/jquery-validation/dist/jquery.validate.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.4.0/bootbox.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+<script src="script/cosmeticManage.js "></script>
+
+</html>
